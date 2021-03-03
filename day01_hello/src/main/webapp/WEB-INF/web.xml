@@ -9,7 +9,7 @@
         <servlet-name>helloServlet</servlet-name>
         <servlet-class>com.example.servlet.HelloServlet</servlet-class>
     </servlet>
-    
+    <!--  Servlet映射  -->
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
         <!--  请求路径  -->
