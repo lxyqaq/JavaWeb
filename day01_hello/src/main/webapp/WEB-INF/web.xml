@@ -14,6 +14,17 @@
         <servlet-name>helloServlet</servlet-name>
         <!--  请求路径  -->
         <url-pattern>/hello</url-pattern>
+        <!--<url-pattern>*.do</url-pattern>-->
+    </servlet-mapping>
+
+    <!--  404 -->
+    <servlet>
+        <servlet-name>errorServlet</servlet-name>
+        <servlet-class>com.example.servlet.ErrorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>errorServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
 </web-app>
