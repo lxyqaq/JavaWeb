@@ -11,6 +11,8 @@
 		<title>Title</title>
 	</head>
 	<body>
+
 		<h1 style="color: red">Successful</h1>
+
 	</body>
 </html>
