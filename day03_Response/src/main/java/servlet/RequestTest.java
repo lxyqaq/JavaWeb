@@ -24,8 +24,9 @@ public class RequestTest extends HttpServlet {
 
         System.out.println(username + ": " + password);
 
+
         //要注意重定向的路径问题
-        resp.sendRedirect("/day03/success.jsp");
+        resp.sendRedirect(req.getContextPath() + "/success.jsp");
 
     }
 
