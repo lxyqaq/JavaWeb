@@ -39,6 +39,10 @@
         <filter-name>filterTest</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+
+    <listener>
+        <listener-class>listener.OnlineListener</listener-class>
+    </listener>
     
     
 </web-app>

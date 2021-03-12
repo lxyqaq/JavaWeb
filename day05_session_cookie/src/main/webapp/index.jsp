@@ -5,6 +5,6 @@
 	<title>JSP - Hello World</title>
 </head>
 <body>
-
+	<h1>有<%=this.getServletConfig().getServletContext().getAttribute("count")%>位用户</h1>
 </body>
 </html>
