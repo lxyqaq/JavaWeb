@@ -17,6 +17,13 @@ public class FilterTest implements Filter {
 
     }
 
+    /*
+    *
+    * 过滤器中的所有代码，在过滤特定请求的时候都会执行
+    *
+    * 必须要让过滤器继续同行
+    *
+    * */
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
