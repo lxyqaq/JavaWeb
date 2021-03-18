@@ -35,4 +35,17 @@ public class UserDaoTest {
 
     }
 
+    @Test
+    public void test1() {
+
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+
+        User userById = userDao.getUserById(2);
+
+        System.out.println(userById);
+
+    }
+
 }
